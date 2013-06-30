@@ -3,7 +3,8 @@ body{
   margin:0 auto;
   margin-top: 20px;
   font-family: Helvetica,"Times New Roman",sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  background-color:#F4E8E1;
 }
 
 div.meniu{
@@ -19,7 +20,7 @@ div.meniu ul{
 
 div.meniu ul li a:link, a:visited{
 	font-size: 18px;
-	color:#296A8C;
+	color:#4C6B83;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -28,15 +29,23 @@ div.meniu ul li a:hover{
 	font-size: 18px;
 	text-decoration: none;
 	font-weight: bold;
-	color:#9C541C;
-	background-color:white;
+	color:#8C5E53;
+	background-color:#F4E8E1;
 }
 
 a:link,a:visited{
-  	color:#296A8C;
+  	color:#4C6B83;
+  	text-decoration: none;
 }
 
 a:hover{
-  color:#9C541C;
-	background-color:white;
+  font-weight: bold;
+  color:#8C5E53;
+	background-color:#F4E8E1;
+	text-decoration: none;
+}
+
+table td{
+  padding-right:10px;
+  padding-left:5px;
 }
